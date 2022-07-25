@@ -3408,6 +3408,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         function resultStageOne() {
             $('.calculator-btn.next').click(function() {
+                let resultInput = '';
                 if(!calculatorCharSashBlockOne.hasClass('no-active')) {
                     $('.setting-one').val($('.setting-one').next().text().trim());
                     $('.setting-one-side').val($('.setting-one-side').next().text().trim());
@@ -3452,6 +3453,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 $('.calculator-stage').eq(1).addClass('slides-stage');
                 $('.calculator-stage').eq(1).addClass('active');
 
+                resultInput = "Конструкция: " + $('.calculator-construction-btn').find('input:checked').val() + "\n" 
+                + "Тип конструкции: " + $('.calculator-construction-type-btn').find('input:checked').val() + "\n"
+                + "Конфигурация: " + $('.calculator-configuration-btn').find('input:checked').val() + "\n"
+                + "Высота: " + $('.calculator-characteristic-size-height').find('input').val() + "\n"
+                + "Ширина: " + $('.calculator-characteristic-size-width').find('input').val() + "\n"
+                + "Количество: " + $('.calculator-characteristic-count-elem').find('input').val() + "\n"
+                + "Настройка 1: " + $('.setting-one').val() + "\n"
+                + "Настройка 1 - сторона: " + $('.setting-one').val() + "\n"
+                + "Настройка 2: " + $('.setting-two').val() + "\n"
+                + "Настройка 2 - сторона: " + $('.setting-two-side').val() + "\n"
+                + "Настройка 3: " + $('.setting-three').val() + "\n"
+                + "Настройка 3 - сторона: " + $('.setting-three-side').val() + "\n"
+                + "Настройка балконной двери: " + $('.setting-balcony').val() + "\n"
+                + "Настройка портальной двери: " + $('.setting-portal-side').val() + "\n"
+                + "Порода дерева: " + $('.breed ').val() + "\n"
+                + "Покрытие конструкции: " + $('.cover').val() + "\n"
+                + "Цвет: " + $('.color').val() + "\n"
+                + "Откосы: " + $('.slopes').val() + "\n"
+                + "Подоконник: " + $('.windowsill ').val() + "\n"
+                + "Дополнительно: " + resultRadioCheckbox.join(" | ");
                 
             })
         }
@@ -3488,7 +3509,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         $('.calculator-structure-elem-text').removeClass('no-active');
                     }
                 }, 100);
-            
             })
         }
         houseInput();
@@ -3497,7 +3517,8 @@ document.addEventListener('DOMContentLoaded', () => {
             $('.calculator-btn.still').click(function () {
                 let count = $('.calculator-stage-item').length
                 let resultInput = '';
-                $('.calculator-data').append(`<input type="hidden" class="calculator-data__input${count}">`)
+                $('.calculator-data-stage-one').append(`<input type="hidden" name="data-stage-one${count}" class="calculator-data-stage-one__input${count}">`)
+
                 
 
 
@@ -3526,7 +3547,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 $('.windowsill').val($('.windowsill').next().text().trim());
                 $('.calculator-stage-list').css({"display":"block"});
 
-                
+                let resultRadioCheckbox = []
+                $('.calculator-other-additionally-btn input:checked').each(function() {  
+                    return resultRadioCheckbox.push($(this).val())
+                })
                 resultInput = "Конструкция: " + $('.calculator-construction-btn').find('input:checked').val() + "\n" 
                 + "Тип конструкции: " + $('.calculator-construction-type-btn').find('input:checked').val() + "\n"
                 + "Конфигурация: " + $('.calculator-configuration-btn').find('input:checked').val() + "\n"
@@ -3546,16 +3570,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 + "Цвет: " + $('.color').val() + "\n"
                 + "Откосы: " + $('.slopes').val() + "\n"
                 + "Подоконник: " + $('.windowsill ').val() + "\n"
-                + "Дополнительно: " + $('.calculator-other-additionally-btn').find('input:checked').val();
-
-                function w() {
-                    $('.calculator-other-additionally-btn input:checked').each(function() {
-                        console.log($(this).val().split(",").join())
-                    })
-                }
-                w()
+                + "Дополнительно: " + resultRadioCheckbox.join(" | ");
 
                 console.log(resultInput)
+                $(`.calculator-data-stage-one__input${count}`).val(resultInput)
+                //console.log(ll)
                 setTimeout(() => {
                     $('.setting-one').val('');
                     $('.setting-one-side').val('');
