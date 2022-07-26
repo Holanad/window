@@ -1,6 +1,7 @@
 /*
 calculator-stage-list - результаты - display none
 */
+// ---ll
 
 .calculator {
     .title {
@@ -66,7 +67,7 @@ calculator-stage-list - результаты - display none
         }
     }
     &-wrapper {
-        padding: 127px 0 150px 0;
+        padding: 127px 0 100px 0;
     }
     &-inner {
         margin-top: 30px;
@@ -1121,7 +1122,6 @@ calculator-stage-list - результаты - display none
                 span {
                     font-size: 14px;
                     position: static;
-                    margin-right: 8px;
                 }
             }
             input:checked ~ span.bg {
@@ -1198,4 +1198,378 @@ calculator-stage-list - результаты - display none
     height: auto;
     visibility: visible;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .calculator {
+        .select {
+            width: 207px;
+        }
+        &-construction {
+            flex-wrap: wrap;
+            justify-content: center;
+            &__title {
+                text-align: center;
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            &-btn {
+                width: 230px;
+                padding: 10px 0;
+                &__title {
+                    font-size: 16px;
+                    margin-bottom: 3px;
+                }
+            }
+            &-type {
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: center;
+                &__title {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 20px;
+                    margin-right: 0;
+                }
+            }
+        }
+        &-configuration {
+            width: 100% !important;
+            flex-wrap: wrap;
+            justify-content: center;
+            &__title {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+        }
+        &-characteristic {
+            &-inner {
+                width: 435px;
+            }
+            &-image {
+                img {
+                    height: 345px;
+                    max-width: 400px;
+                }
+            }
+            &-size {
+                &-elem {
+                    width: 211px;
+                }
+            }
+        }
+        &-other {
+            &-left {
+                width: 420px;
+            }
+            &-right {
+                width: 500px;
+            }
+            &-color {
+                &-item {
+                    &:not(:nth-child(10n + 10)) {
+                        margin-right: 7px;
+                    }
+                }
+            }
+            &-additionally {
+                &-btn {
+                    padding: 0 8px;
+                    margin-right: 7px;
+                }
+            }
+        }
+
+        &-stage {
+            &-two {
+                &__btn {
+                    margin-left: 0;
+                }
+            }
+            &-three {
+                &-wrapper {
+                    margin-left: 0;
+                }
+            }
+            &-block {
+                margin-left: 0;
+            }
+            &-list {
+                padding-left: 0;
+            }
+            &-item {
+                padding: 18px 25px;
+                &__text {
+                    font-size: 16px;
+                    span {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        &-structure {
+            &-wrapper {
+                margin-left: 0;
+            }
+            &-left, &-right {
+                width: 425px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .calculator {
+        &-characteristic {
+            &-inner {
+                margin: 0 auto;
+            }
+            &__title {
+                text-align: center;
+            }
+            &-block {
+                margin-top: 25px;
+                flex-direction: column;
+            }
+            &-image {
+                order: -1;
+                margin: 45px auto;
+            }
+        }
+        &-other {
+            &-left {
+                width: 340px;
+            }
+            &-right {
+                width: 340px;
+            }
+            &-color {
+                &-item {
+                    &:not(:nth-child(10n + 10)) {
+                        margin-right: 0;
+                    }
+                    &:not(:nth-child(8n + 8)) {
+                        margin-right: 8px;
+                    }
+                }
+            }
+            &-additionally {
+                &-btn {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        &-btn {
+            height: 60px;
+            &.still {
+                p {
+                    &::before {
+                        height: 35px;
+                    }
+                }
+            }
+        }
+        &-buttons {
+            margin-top: 0;
+        }
+        &-structure {
+            &-left, &-right {
+                width: 340px;
+            }
+        }
+        &-info {
+            &-elem {
+                margin-right: 10px;
+                width: 173px;
+            }
+            &__btn {
+                width: 180px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .calculator {
+        &-stage {
+            &-title {
+                &__num {
+                    margin-right: 20px;
+                }
+                &__name {
+                    line-height: normal;
+                }
+            }
+        }
+        &-construction {
+            &-block {
+                flex-direction: column;
+            }
+            &-btn {
+                
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                    margin-right: 0;
+                }
+            }
+        }
+        &-characteristic {
+            &-image {
+                img {
+                    height: 315px;
+                    max-width: 350px;
+                }
+            }
+        }
+        &-other {
+            flex-direction: column;
+            &-left, &-right {
+                width: 100%;
+            }
+            &-cover {
+                margin-bottom: 0;
+            }
+            &-color {
+                margin-top: 20px;
+            }
+            &-slopes {
+                margin-bottom: 20px;
+            }
+            &-additionally {
+                &-btn {
+                    margin-right: 15px;
+                }
+            }
+        }
+        &-buttons {
+            flex-direction: column;
+            margin: 0 auto;
+            padding: 0 !important;
+        }
+        &-btn {
+            
+            &.still {
+                margin-right: 0;
+                margin-bottom: 12px;
+            }
+        }
+        &-structure {
+            &-wrapper {
+                flex-direction: column;
+            }
+            &-left, &-right {
+                width: 100%;
+            }
+            &-elem {
+                width: 50% !important;
+                &-text {
+                    width: 50% !important;
+                }
+            }
+        }
+        &-info {
+            &__title {
+                text-align: center;
+            }
+            &-inner {
+                flex-direction: column;
+                margin: 0 auto;
+                width: 260px;
+            }
+            &-elem {
+                width: calc(100% - 42px);
+                margin: 0 21px 10px 21px;
+            }
+            &__btn {
+                width: 100%;
+                height: 52px;
+            }
+            &__descr {
+                text-align: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .calculator {
+        .select {
+            width: 158px;
+        }
+        .name-input {
+            text-align: center;
+        }
+        &-stage {
+            &-title {
+                &__name {
+                    font-size: 20px;
+                    width: calc(100% - 42px - 15px);
+                }
+                &__num {
+                    margin-right: 15px;
+                }
+            }
+            &-two {
+                &__btn {
+                    margin: 37px auto 0 auto;
+                    display: block;
+                }
+            }
+        }
+        &-configuration {
+            &-btn {
+                width: 74px;
+                height: 74px;
+                padding: 17px;
+                &:nth-child(3) {
+                    width: 90px;    
+                }
+                &:nth-child(4) {
+                    svg {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                &:not(:last-child) {
+                    margin-right: 13px;
+                }
+            }
+        }
+        &-characteristic {
+            &-inner {
+                width: 100%;
+            }
+            &-image  {
+                img {
+                    height: 250px;
+                    max-width: 278px;
+
+                }
+            }
+            &-size {
+                &-elem {
+                    width: 100%;
+                }
+                &-height {
+                    width: 48%;
+                }
+                &-width {
+                    width: 48%;
+                }
+            }
+            &-sash {
+                &-elem {
+                    &-side {
+                        width: 91px !important;
+                    }
+                }
+                &-block {
+                    svg {
+                        //width: 40px;
+                    }
+                }
+            }
+        }
+    }
 }

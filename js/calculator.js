@@ -3445,13 +3445,24 @@ document.addEventListener('DOMContentLoaded', () => {
                         $('.calculator-stage-item__text_num').text($('.calculator-characteristic-count-elem').find('input').val())
                         $('.calculator-stage-list').css({"display":"block"});
                     } else {
-                        console.log('2')
+                        if($('.calculator-construction-btn').find('input').is(':checked')) {
+                            $('.calculator-stage-item').last().find('.calculator-stage-item__text_construction').text($('.calculator-construction-btn').find('input:checked').val())
+                        }
+                        if($('.calculator-configuration-btn').find('input').is(':checked')) {
+                            $('.calculator-stage-item').last().find('.calculator-stage-item__text_type').text($('.calculator-configuration-btn').find('input:checked').val())
+                        }
+                        $('.calculator-stage-item').last().find('.calculator-stage-item__text_num').text($('.calculator-characteristic-count-elem').find('input').val())
                     }
                 }, 200);
                 $('.calculator-stage-block').css({"display":"none"});
                 $('.calculator-stage').eq(0).removeClass('active');
                 $('.calculator-stage').eq(1).addClass('slides-stage');
                 $('.calculator-stage').eq(1).addClass('active');
+
+                let resultRadioCheckbox = []
+                $('.calculator-other-additionally-btn input:checked').each(function() {  
+                    return resultRadioCheckbox.push($(this).val())
+                })
 
                 resultInput = "Конструкция: " + $('.calculator-construction-btn').find('input:checked').val() + "\n" 
                 + "Тип конструкции: " + $('.calculator-construction-type-btn').find('input:checked').val() + "\n"
@@ -3473,7 +3484,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 + "Откосы: " + $('.slopes').val() + "\n"
                 + "Подоконник: " + $('.windowsill ').val() + "\n"
                 + "Дополнительно: " + resultRadioCheckbox.join(" | ");
-                
+                $('.calculator-data-stage-one__input').val(resultInput)
             })
         }
         resultStageOne();
@@ -3628,10 +3639,50 @@ document.addEventListener('DOMContentLoaded', () => {
         dopConstruction()
 
 
-        function stage() {
+        function stageTwo() {
+            $('.calculator-btn.next').click(function() {
+                $('.calculator-structure-elem').eq(0).find('input').val($('.calculator-structure-elem').eq(0).find('.select__text').text().trim());
+                $('.calculator-structure-elem').eq(1).find('input').val($('.calculator-structure-elem').eq(1).find('.select__text').text().trim());
+            })
+            $('.calculator-structure-elem').eq(0).find('.select-item').click(function() {
+                setTimeout(() => {
+                    $('.calculator-structure-elem').eq(0).find('input').val($('.calculator-structure-elem').eq(0).find('.select__text').text().trim());
+                    $('.calculator-structure-elem').eq(1).find('input').val($('.calculator-structure-elem').eq(1).find('.select__text').text().trim());
+                    if(!$('.calculator-structure-elem-text').hasClass('no-active')) {
+                        $('.calculator-structure-elem').eq(1).find('input').val('');
+                    }
+                }, 100);
+            })
+            $('.calculator-structure-elem').eq(1).find('.select-item').click(function() {
+                setTimeout(() => {
+                    $('.calculator-structure-elem').eq(1).find('input').val($('.calculator-structure-elem').eq(1).find('.select__text').text().trim());
+                }, 100);
+            })
 
+
+
+            $('.calculator-stage-two__btn').click(function() {
+                let resultRadioCheckboxWork = []
+                $('.calculator-work-btn input:checked').each(function() {  
+                    return resultRadioCheckboxWork.push($(this).val())
+                })
+                
+                resultInput = "Тип сооружения: " + $('.calculator-structure-elem').eq(0).find('input').val() + "\n" 
+                + "Тип сооружения: " + $('.calculator-structure-elem').eq(1).find('input').val() + "\n"
+                + "Тип сооружения (Если выбрано: Другое):" + $('.house-text').val() + "\n"
+                + "Толщина стены: " + $('.depth').val() + "\n"
+                + "Дополнительная информация: " + $('.calculator-dop-elem').find('textarea').val() + "\n"
+                + "Населенный пункт: " + $('.locality').val() + "\n"
+                + "Дополнительно: " + resultRadioCheckboxWork.join(" | ");
+                $('.calculator-data-stage-two__input').val(resultInput)
+                
+                $('.calculator-structure').css({"display":"none"});
+                $('.calculator-stage').eq(1).removeClass('active');
+                $('.calculator-stage').eq(2).addClass('slides-stage');
+                $('.calculator-stage').eq(2).addClass('active');
+            })
         }
-        stage()
+        stageTwo()
     }
     calculator();
 });
