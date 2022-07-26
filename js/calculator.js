@@ -241,17 +241,17 @@ document.addEventListener('DOMContentLoaded', () => {
                             calculatorCharSashBlockOneElemTwo.removeClass('hidden');
                             //Условия
                             if(calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
                             }
                             if(calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
                             }
                             // Кнопки
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).click(function () {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
                             });
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).click(function () {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
                             });
                         });
                     }
@@ -262,17 +262,17 @@ document.addEventListener('DOMContentLoaded', () => {
                             calculatorCharSashBlockOneElemTwo.removeClass('hidden');
                             //Условия
                             if(calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
                             }
                             if(calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
                             }
                             // Кнопки
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).click(function () {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
                             });
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).click(function () {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/single-leaf/window-two.svg");
                             });
                         });
                     }
@@ -298,19 +298,19 @@ document.addEventListener('DOMContentLoaded', () => {
                             }
                             //Если во втором поле поворотная вправо выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
                             }
                             //Если во втором поле поворотная влево выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
                             }
                             //Если во втором поле поворотная-откидная вправо выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
                             }
                             //Если во втором поле поворотная-откидная влево выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
                             }
                         });
                         calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).click(function () {
@@ -324,19 +324,19 @@ document.addEventListener('DOMContentLoaded', () => {
                             }
                             //Если в первом поле поворотная вправо выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
                             }
                             //Если в первом поле поворотная влево выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
                             }
                             //Если в первом поле поворотная-откидная вправо выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
                             }
                             //Если в первом поле поворотная-откидная влево выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
                             }
                         });
                     }
@@ -350,60 +350,60 @@ document.addEventListener('DOMContentLoaded', () => {
                             calculatorCharSashBlockOneElemTwo.find('.select__text').text(calculatorCharSashBlockOneElemTwo.find('.selected').text());
                             //Если во втором поле глухая выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
                             }
                             //Если во втором поле поворотная вправо выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если во втором поле поворотная влево выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                             }
                             //Если во втором поле поворотная-откидная вправо выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если во втором поле поворотная-откидная влево выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                             }
 
                             // Кнопки
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).click(function () {
                                 //Если во втором поле глухая выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
                                 }
                                 //Если во втором поле поворотная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если во втором поле поворотная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                                 }
                                 //Если во втором поле поворотная-откидная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если во втором поле поворотная-откидная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                                 }
                             });
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).click(function () {
                                 //Если во втором поле глухая выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
                                 }
                                 //Если во втором поле поворотная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                                 }
                                 //Если во втором поле поворотная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
                                 }
                                 //Если во втором поле поворотная-откидная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
@@ -411,7 +411,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 }
                                 //Если во втором поле поворотная-откидная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
                                 }
                             });
                         });
@@ -422,68 +422,68 @@ document.addEventListener('DOMContentLoaded', () => {
                             calculatorCharSashBlockTwoElemTwo.find('.select__text').text(calculatorCharSashBlockTwoElemTwo.find('.selected').text());
                             //Если в первом поле глухая выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
                             }
                             //Если в первом поле поворотная вправо выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если в первом поле поворотная влево выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                             }
                             //Если в первом поле поворотная-откидная вправо выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если в первом поле поворотная-откидная влево выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                             }
 
                             calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).click(function () {
-                                //Если в первом поле глухая выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
-                                }
-                                //Если в первом поле поворотная вправо выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
-                                }
-                                //Если в первом поле поворотная влево выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
-                                }
-                                //Если в первом поле поворотная-откидная вправо выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
-                                }
-                                //Если в первом поле поворотная-откидная влево выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
-                                }
-                            });
-
-                            calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).click(function () {
                                 //Если в первом поле глухая выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
                                 }
                                 //Если в первом поле поворотная вправо выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если в первом поле поворотная влево выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                                 }
                                 //Если в первом поле поворотная-откидная вправо выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если в первом поле поворотная-откидная влево выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                }
+                            });
+
+                            calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).click(function () {
+                                //Если в первом поле глухая выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
+                                }
+                                //Если в первом поле поворотная вправо выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                }
+                                //Если в первом поле поворотная влево выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                }
+                                //Если в первом поле поворотная-откидная вправо выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                }
+                                //Если в первом поле поворотная-откидная влево выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
                                 }
                             });
                         });
@@ -498,68 +498,68 @@ document.addEventListener('DOMContentLoaded', () => {
                             calculatorCharSashBlockOneElemTwo.find('.select__text').text(calculatorCharSashBlockOneElemTwo.find('.selected').text());
                             //Если во втором поле глухая выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
                             }
                             //Если во втором поле поворотная вправо выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если во втором поле поворотная влево выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                             }
                             //Если во втором поле поворотная-откидная вправо выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если во втором поле поворотная-откидная влево выдаем это
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                             }
 
                             // Кнопки
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).click(function () {
                                 //Если во втором поле глухая выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
                                 }
                                 //Если во втором поле поворотная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если во втором поле поворотная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                                 }
                                 //Если во втором поле поворотная-откидная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если во втором поле поворотная-откидная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
                                 }
                             });
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).click(function () {
                                 //Если во втором поле глухая выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-four.svg");
                                 }
                                 //Если во втором поле поворотная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                                 }
                                 //Если во втором поле поворотная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
                                 }
                                 //Если во втором поле поворотная-откидная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                                 }
                                 //Если во втором поле поворотная-откидная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
                                 }
                             });
                         });
@@ -570,68 +570,68 @@ document.addEventListener('DOMContentLoaded', () => {
                             calculatorCharSashBlockTwoElemTwo.find('.select__text').text(calculatorCharSashBlockTwoElemTwo.find('.selected').text());
                             //Если в первом поле глухая выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
                             }
                             //Если в первом поле поворотная вправо выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если в первом поле поворотная влево выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                             }
                             //Если в первом поле поворотная-откидная вправо выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                             }
                             //Если в первом поле поворотная-откидная влево выдаем это
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                             }
 
                             calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).click(function () {
-                                //Если в первом поле глухая выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
-                                }
-                                //Если в первом поле поворотная вправо выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
-                                }
-                                //Если в первом поле поворотная влево выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
-                                }
-                                //Если в первом поле поворотная-откидная вправо выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
-                                }
-                                //Если в первом поле поворотная-откидная влево выдаем это
-                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
-                                }
-                            });
-
-                            calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).click(function () {
                                 //Если в первом поле глухая выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-eith.svg");
                                 }
                                 //Если в первом поле поворотная вправо выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если в первом поле поворотная влево выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                                 }
                                 //Если в первом поле поворотная-откидная вправо выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
                                 }
                                 //Если в первом поле поворотная-откидная влево выдаем это
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
+                                }
+                            });
+
+                            calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).click(function () {
+                                //Если в первом поле глухая выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-seven.svg");
+                                }
+                                //Если в первом поле поворотная вправо выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                }
+                                //Если в первом поле поворотная влево выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
+                                }
+                                //Если в первом поле поворотная-откидная вправо выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                }
+                                //Если в первом поле поворотная-откидная влево выдаем это
+                                if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-three.svg");
                                 }
                             });
                         });
