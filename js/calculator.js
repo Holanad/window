@@ -407,7 +407,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 }
                                 //Если во втором поле поворотная-откидная вправо выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-one.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/double-wing/window-five.svg");
                                 }
                                 //Если во втором поле поворотная-откидная влево выдаем это
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
@@ -663,19 +663,19 @@ document.addEventListener('DOMContentLoaded', () => {
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
                                 }
                             }
                             ////////////////
@@ -683,23 +683,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                             }
                             ////////////////
@@ -707,23 +707,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                 }
                             }
                             ////////////////
@@ -731,23 +731,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                             }
                             ////////////////
@@ -755,23 +755,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                 }
                             }
                         });
@@ -789,19 +789,19 @@ document.addEventListener('DOMContentLoaded', () => {
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
                                 }
                             }
                             ////////////////
@@ -809,23 +809,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                             }
                             ////////////////
@@ -833,23 +833,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twelve.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                 }
                             }
                             ////////////////
@@ -857,23 +857,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                             }
                             ////////////////
@@ -881,23 +881,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twelve.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                 }
                             }
                         });
@@ -915,19 +915,19 @@ document.addEventListener('DOMContentLoaded', () => {
                                 }
                                 // во втором поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                 }
                                 // во втором поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
                                 }
                                 // во втором поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
                                 }
                             }
                             ////////////////
@@ -935,23 +935,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                             }
                             ////////////////
@@ -959,23 +959,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twelve.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                 }
                             }
                             ////////////////
@@ -983,23 +983,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                             }
                             ////////////////
@@ -1007,23 +1007,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twelve.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                 }
                             }
                         });
@@ -1040,23 +1040,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 };
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                             }
                             ////////////////
@@ -1064,23 +1064,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -1088,23 +1088,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                             }
                             ////////////////
@@ -1112,23 +1112,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -1136,23 +1136,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                             }
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).click(function () {
@@ -1160,23 +1160,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                 }
                                 ////////////////
@@ -1184,23 +1184,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -1208,23 +1208,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -1232,23 +1232,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -1256,23 +1256,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                             });
@@ -1282,23 +1282,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                 }
                                 ////////////////
@@ -1306,23 +1306,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                                 ////////////////
@@ -1330,23 +1330,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                                 ////////////////
@@ -1354,23 +1354,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                                 ////////////////
@@ -1378,23 +1378,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                             });
@@ -1408,23 +1408,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                 };
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                             }
                             ////////////////
@@ -1432,23 +1432,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -1456,23 +1456,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                             }
                             ////////////////
@@ -1480,23 +1480,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -1504,23 +1504,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                             }
                             calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).click(function () {
@@ -1528,23 +1528,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                 }
                                 ////////////////
@@ -1552,23 +1552,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -1576,23 +1576,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                                 ////////////////
@@ -1600,23 +1600,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -1624,23 +1624,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                             });
@@ -1650,23 +1650,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                 }
                                 ////////////////
@@ -1674,23 +1674,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -1698,23 +1698,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                                 ////////////////
@@ -1722,23 +1722,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -1746,23 +1746,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                             });
@@ -1776,23 +1776,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                 };
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                             }
                             ////////////////
@@ -1800,23 +1800,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                             }
                             ////////////////
@@ -1824,23 +1824,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                             }
                             ////////////////
@@ -1848,23 +1848,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                             }
                             ////////////////
@@ -1872,23 +1872,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                             }
                             calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).click(function () {
@@ -1896,23 +1896,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                 }
                                 ////////////////
@@ -1920,23 +1920,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                 }
                                 ////////////////
@@ -1944,23 +1944,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                 }
                                 ////////////////
@@ -1968,23 +1968,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                 }
                                 ////////////////
@@ -1992,23 +1992,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                 }
                             });
@@ -2018,23 +2018,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                 }
                                 ////////////////
@@ -2042,23 +2042,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -2066,23 +2066,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                                 ////////////////
@@ -2090,23 +2090,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -2114,23 +2114,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                             });
@@ -2148,23 +2148,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                 };
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                 }
                             }
                             ////////////////
@@ -2172,23 +2172,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -2196,23 +2196,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                             }
                             ////////////////
@@ -2220,23 +2220,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -2244,23 +2244,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                 }
                             }
                             calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).click(function () {
@@ -2268,23 +2268,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                 }
                                 ////////////////
@@ -2292,23 +2292,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -2316,23 +2316,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -2340,23 +2340,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -2364,23 +2364,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                             });
@@ -2390,23 +2390,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-six.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                 }
                                 ////////////////
@@ -2414,23 +2414,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                                 ////////////////
@@ -2438,23 +2438,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                                 ////////////////
@@ -2462,23 +2462,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                                 ////////////////
@@ -2486,23 +2486,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                             });
@@ -2516,23 +2516,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                 };
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                 }
                             }
                             ////////////////
@@ -2540,23 +2540,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -2564,23 +2564,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                             }
                             ////////////////
@@ -2588,23 +2588,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                 }
                             }
                             ////////////////
@@ -2612,23 +2612,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                             }
                             calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).click(function () {
@@ -2636,23 +2636,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                 }
                                 ////////////////
@@ -2660,23 +2660,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -2684,23 +2684,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                                 ////////////////
@@ -2708,23 +2708,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                 }
                                 ////////////////
@@ -2732,23 +2732,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                 }
                             });
@@ -2758,23 +2758,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-four.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-five.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                 }
                                 ////////////////
@@ -2782,23 +2782,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -2806,23 +2806,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                                 ////////////////
@@ -2830,23 +2830,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-seventeen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fifteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -2854,23 +2854,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-fourteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-sixteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockThreeElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                             });
@@ -2884,23 +2884,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                 };
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                 }
                             }
                             ////////////////
@@ -2908,23 +2908,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                             }
                             ////////////////
@@ -2932,23 +2932,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                             }
                             ////////////////
@@ -2956,23 +2956,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                 }
                             }
                             ////////////////
@@ -2980,23 +2980,23 @@ document.addEventListener('DOMContentLoaded', () => {
                             if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                 // И в третьем поле глухая
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                 }
                                 // И в третьем поле поворотная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                                 // И в третьем поле поворотная-откидная вправо
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                 }
                                 // И в третьем поле поворотная-откидная влево
                                 if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                    $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                 }
                             }
                             calculatorCharSashBlockThreeElemTwo.find('.select-item').eq(0).click(function () {
@@ -3004,23 +3004,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
                                     }
                                 }
                                 ////////////////
@@ -3028,23 +3028,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                 }
                                 ////////////////
@@ -3052,23 +3052,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                 }
                                 ////////////////
@@ -3076,23 +3076,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
                                     }
                                 }
                                 ////////////////
@@ -3100,23 +3100,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyseven.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
                                     }
                                 }
                             });
@@ -3126,23 +3126,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-three.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-two.svg");
                                     };
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-ten.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nine.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eith.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eleven.svg");
                                     }
                                 }
                                 ////////////////
@@ -3150,23 +3150,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -3174,23 +3174,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                                 ////////////////
@@ -3198,23 +3198,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(0).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyone.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twenty.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfive.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentytwo.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyeith.svg");
                                     }
                                 }
                                 ////////////////
@@ -3222,23 +3222,23 @@ document.addEventListener('DOMContentLoaded', () => {
                                 if(calculatorCharSashBlockOneElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockOneElemTwo.find('.select-item').eq(1).hasClass('selected')) {
                                     // И в третьем поле глухая
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-eithteen.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-nineteen.svg");
                                     }
                                     // И в третьем поле поворотная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(1).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                     // И в третьем поле поворотная-откидная вправо
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentynine.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentythree.svg");
                                     }
                                     // И в третьем поле поворотная-откидная влево
                                     if(calculatorCharSashBlockTwoElemOne.find('.select-item').eq(2).hasClass('selected') && calculatorCharSashBlockTwoElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentysix.svg");
+                                        $('.calculator-characteristic-image__img').attr("src", "images/calculator/tricuspid/window-twentyfour.svg");
                                     }
                                 }
                             });
@@ -3258,16 +3258,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     calculatorCharSashBlockFour.removeClass('no-active');
                     function rotaryDoor() {
                         if(calculatorCharSashBlockFourElemTwo.find('.select-item').eq(0).hasClass('selected')) {
-                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-two.svg");
+                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-one.svg");
                         }
                         if(calculatorCharSashBlockFourElemTwo.find('.select-item').eq(1).hasClass('selected')) {
-                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-one.svg");
+                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-two.svg");
                         }
                         calculatorCharSashBlockFourElemTwo.find('.select-item').eq(0).click(function () {
-                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-two.svg");
+                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-one.svg");
                         });
                         calculatorCharSashBlockFourElemTwo.find('.select-item').eq(1).click(function () {
-                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-one.svg");
+                            $('.calculator-characteristic-image__img').attr("src", "images/calculator/balcony-door/balcony-door-two.svg");
                         });
                     }
                     rotaryDoor();
@@ -3377,16 +3377,105 @@ document.addEventListener('DOMContentLoaded', () => {
                 calculatorCharSashBlockFiveElemTwo.find('.select__text').text(calculatorCharSashBlockFiveElemTwo.find('.selected').text());
                 if($('.calculator-construction-type-btn').eq(0).hasClass('active')) {
                     $('._portal-door').eq(0).css({"display":"flex"});
+                    $('._portal-door').eq(0).find('svg').replaceWith(`
+                    <svg width="69" height="67" viewBox="0 0 69 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.723877" y="1.31421" width="33.558" height="64.8016" stroke="#BBBBBB"/>
+                        <path d="M4 5H30.7644L31 63H4V5Z" stroke="#BBBBBB"/>
+                        <rect x="34.282" y="1.31421" width="33.558" height="64.8016" stroke="#BBBBBB"/>
+                        <path d="M38 5H64.7644L65 63H38V5Z" stroke="#BBBBBB"/>
+                        <line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(0.707107 0.707107 -0.634405 0.773001 47.0107 29.6238)" stroke="#E0E0E0" stroke-linecap="round"/>
+                        <line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(-0.707107 0.707107 0.634405 0.773001 55.1931 29.6238)" stroke="#E0E0E0" stroke-linecap="round"/>
+                        <path d="M11.1384 37.7651H21.553" stroke="#E0E0E0"/>
+                    </svg>
+                    `)
                     $('._portal-door').eq(1).css({"display":"none"});
                     $('._portal-door').eq(2).css({"display":"flex"});
+                    $('._portal-door').eq(2).find('svg').replaceWith(`
+                    <svg width="85" height="67" viewBox="0 0 85 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                        <path d="M3 4H18.8604L19 63H3V4Z" stroke="#BBBBBB"/>
+                        <rect x="21.4912" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                        <path d="M24 4H39.8604L40 63H24V4Z" stroke="#BBBBBB"/>
+                        <rect x="42.3203" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                        <path d="M45 4H60.8604L61 63H45V4Z" stroke="#BBBBBB"/>
+                        <rect x="63.1494" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                        <path d="M66 4H81.8604L82 63H66V4Z" stroke="#BBBBBB"/>
+                        <line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(0.707107 0.707107 -0.634405 0.773001 69.4729 29.6238)" stroke="#E0E0E0" stroke-linecap="round"/>
+                        <line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(-0.707107 0.707107 0.634405 0.773001 77.6553 29.6238)" stroke="#E0E0E0" stroke-linecap="round"/>
+                        <line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(0.707107 0.707107 -0.634405 0.773001 7.02661 29.6238)" stroke="#E0E0E0" stroke-linecap="round"/>
+                        <line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(-0.707107 0.707107 0.634405 0.773001 15.209 29.6238)" stroke="#E0E0E0" stroke-linecap="round"/>
+                        <path d="M47.5276 37.7651H57.9421" stroke="#E0E0E0"/>
+                        <path d="M37.113 37.7651H26.6985" stroke="#E0E0E0"/>
+                        </svg>
+
+                    `)
+
                 }
                 if($('.calculator-construction-type-btn').eq(1).hasClass('active')) {
                     $('._portal-door').eq(0).css({"display":"flex"});
+                    $('._portal-door').eq(0).find('svg').replaceWith(`
+                    <svg width="75" height="67" viewBox="0 0 75 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="1" y="1" width="24.3006" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M4 4H22.8342L23 63H4V4Z" stroke="#BBBBBB"/>
+                                            <rect x="25.3005" y="1" width="24.3006" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M28 4H46.8342L47 63H28V4Z" stroke="#BBBBBB"/>
+                                            <rect x="49.6011" y="1" width="24.3006" height="64.8016" stroke="#BBBBBB"/>
+                                            <line x1="0.5" y1="-0.5" x2="16.7456" y2="-0.5" transform="matrix(-0.854964 0.518687 0.518687 0.854964 68.9741 28.7722)" stroke="#E0E0E0" stroke-linecap="round"/>
+                                            <path d="M52 4H70.8342L71 63H52V4Z" stroke="#BBBBBB"/>
+                                            <line x1="6.31549" y1="28.6041" x2="20.2048" y2="37.0304" stroke="#E0E0E0" stroke-linecap="round"/>
+                                            <line x1="0.5" y1="-0.5" x2="16.7456" y2="-0.5" transform="matrix(0.854964 -0.518687 -0.518687 -0.854964 29.9292 37.717)" stroke="#E0E0E0" stroke-linecap="round"/>
+                                        </svg>
+                    `)
                     $('._portal-door').eq(1).css({"display":"flex"});
+                    $('._portal-door').eq(1).find('svg').replaceWith(`
+                    <svg width="75" height="67" viewBox="0 0 75 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="1" y="1" width="24.3006" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M4 4H22.8342L23 63H4V4Z" stroke="#BBBBBB"/>
+                                            <rect x="25.3005" y="1" width="24.3006" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M27.9998 4H46.834L46.9998 63H27.9998V4Z" stroke="#BBBBBB"/>
+                                            <rect x="49.6011" y="1" width="24.3006" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M52 4H70.8342L71 63H52V4Z" stroke="#BBBBBB"/>
+                                            <line x1="6.31573" y1="28.6041" x2="20.2051" y2="37.0304" stroke="#E0E0E0" stroke-linecap="round"/>
+                                            <line x1="54.9168" y1="28.6041" x2="68.8062" y2="37.0304" stroke="#E0E0E0" stroke-linecap="round"/>
+                                            <line x1="0.5" y1="-0.5" x2="16.7456" y2="-0.5" transform="matrix(0.854964 -0.518687 -0.518687 -0.854964 29.9292 37.717)" stroke="#E0E0E0" stroke-linecap="round"/>
+                                        </svg> 
+                    `)
                     $('._portal-door').eq(2).css({"display":"flex"});
+                    $('._portal-door').eq(2).find('svg').replaceWith(`
+                    <svg width="85" height="67" viewBox="0 0 85 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="1" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M4 4H18.8691L19 63H4V4Z" stroke="#BBBBBB"/>
+                                            <rect x="21.8291" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M24.8291 4H39.6982L39.8291 63H24.8291V4Z" stroke="#BBBBBB"/>
+                                            <rect x="42.6582" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M46 4H60.8691L61 63H46V4Z" stroke="#BBBBBB"/>
+                                            <rect x="63.4873" y="1.31421" width="20.8291" height="64.8016" stroke="#BBBBBB"/>
+                                            <path d="M66.4878 4H81.3569L81.4878 63H66.4878V4Z" stroke="#BBBBBB"/>
+                                            <line x1="0.5" y1="-0.5" x2="13.5" y2="-0.5" transform="matrix(0.821383 0.570377 -0.468314 0.883562 5 29)" stroke="#E0E0E0" stroke-linecap="round"/>
+                                            <line x1="0.5" y1="-0.5" x2="13.5" y2="-0.5" transform="matrix(0.821383 0.570377 -0.468314 0.883562 48 30)" stroke="#E0E0E0" stroke-linecap="round"/>
+                                            <line x1="0.5" y1="-0.5" x2="13.5" y2="-0.5" transform="matrix(0.821383 -0.570377 -0.468314 -0.883562 26 36.9854)" stroke="#E0E0E0" stroke-linecap="round"/>
+                                            <line x1="0.5" y1="-0.5" x2="13.5" y2="-0.5" transform="matrix(0.821383 -0.570377 -0.468314 -0.883562 68 36.9854)" stroke="#E0E0E0" stroke-linecap="round"/>
+                                        </svg> 
+                    `)
                 }
                 if($('.calculator-construction-type-btn').eq(2).hasClass('active')) {
                     $('._portal-door').eq(0).css({"display":"flex"});
+                    $('._portal-door').eq(0).find('svg').replaceWith(`
+                    <svg width="89" height="71" viewBox="0 0 89 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 3.31421H28.7721L28.7721 68.0008H1V3.31421Z" stroke="#BBBBBB"/>
+<path d="M3 6H28.766V65H3V6Z" stroke="#BBBBBB"/>
+<rect x="60.5942" y="3.31421" width="27.7722" height="64.6866" stroke="#BBBBBB"/>
+<path d="M60.6511 6H86V65H60.651L60.6511 6Z" stroke="#BBBBBB"/>
+<rect x="28.772" y="1" width="31.8222" height="69.4303" stroke="#BBBBBB"/>
+<rect x="31" y="4" width="27" height="63" stroke="#BBBBBB"/>
+<line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(0.707107 0.707107 -0.634405 0.773001 13.1504 31.624)" stroke="#E0E0E0" stroke-linecap="round"/>
+<line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(-0.707107 0.707107 0.634405 0.773001 21.3328 31.624)" stroke="#E0E0E0" stroke-linecap="round"/>
+<line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(0.707107 0.707107 -0.634405 0.773001 69.8516 31.624)" stroke="#E0E0E0" stroke-linecap="round"/>
+<line x1="0.5" y1="-0.5" x2="11.0717" y2="-0.5" transform="matrix(-0.707107 0.707107 0.634405 0.773001 78.0342 31.624)" stroke="#E0E0E0" stroke-linecap="round"/>
+<path d="M40.3438 35.7151H50.7583" stroke="#E0E0E0"/>
+</svg>
+
+                    `);
                     $('._portal-door').eq(1).css({"display":"none"});
                     $('._portal-door').eq(2).css({"display":"none"});
                 }

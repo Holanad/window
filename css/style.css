@@ -1881,4 +1881,65 @@ calculator-stage-list - результаты - display none
     width: 91px !important;
   }
 }
+
+.success-popup {
+  background-color: rgba(34, 34, 34, 0.85);
+  overflow: auto;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.success-popup img {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.success-popup-wrapper {
+  position: relative;
+  width: 350px;
+  background: #fff;
+  -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.31);
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.31);
+  border-radius: 8px;
+  padding: 25px;
+  margin: auto;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.success-popup__text {
+  color: #4EA64B;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.success-popup.active {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
 /*# sourceMappingURL=style.css.map */
